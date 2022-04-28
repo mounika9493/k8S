@@ -7,7 +7,7 @@ spec:
   selector:
    app: nginx
   template:
-   metedata:
+   metadata:
     labels:
     app: nginx
    spec:
