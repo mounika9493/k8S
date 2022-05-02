@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: service
+metadata:
+  name: myjavaapp-svc
+  labels: 
+   app: myjavaapp
+   version: 2.6.2
+
+spec:
+ type: NodePort
+ ports:
+ - port: 8080
+   nodeport: 30001
+   portocol: TCP
+ selector:
+   app: myjavaapp  
+   version: 2.6.2
+
+   
