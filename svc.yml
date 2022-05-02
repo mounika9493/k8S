@@ -11,5 +11,5 @@ spec:
    nodeport: 30001
    portcol: TCP
  selector:  
-  app: mynginx 
+  app: mynginx
 
