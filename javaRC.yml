@@ -12,7 +12,7 @@ spec:
     labels:
      app: myjavaapp
      version: 2.6.2
-  spec:
+    spec:
         containers:
          - name: myjavaapp-container
            image: maha4iac/mymahalogin02april22:2
